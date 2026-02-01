@@ -18,7 +18,7 @@ The model was trained on a preprocessed version of the Oxford-IIIT Pet dataset a
 
 ### Dataset
 
-The dataset is hosted on Kaggle and can be found here:
+The dataset is hosted on my Kaggle account and can be found here:
 
 https://www.kaggle.com/datasets/omaralmadani/oxford-iiit-pet-preprocessed-for-segmentation
 
