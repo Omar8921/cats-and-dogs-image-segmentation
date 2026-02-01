@@ -6,3 +6,5 @@ matplotlib
 albumentations
 opencv-python
 Pillow
+uvicorn
+fastapi
