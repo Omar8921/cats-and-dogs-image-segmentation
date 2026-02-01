@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Image Processor</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>Cats and Dogs Image Segmentaion</h1>
+
+        <div class="card">
+            <input type="file" id="imageInput" accept="image/*" />
+            <div class="preview-box">
+                <img id="preview" />
+                <span id="previewText">Image preview</span>
+            </div>
+
+            <button id="sendBtn">Process Image</button>
+        </div>
+
+        <div class="results">
+            <div class="result-card">
+                <h3>Mask</h3>
+                <img id="result1" />
+            </div>
+            <div class="result-card">
+                <h3>Overlay</h3>
+                <img id="result2" />
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
