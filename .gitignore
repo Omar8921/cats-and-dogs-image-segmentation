@@ -11,7 +11,8 @@ __pycache__/
 .env
 
 # ==================
-# Deep Learning
+# Data & Artifacts
 # ==================
-*.pth
-*.json
+data/
+artifacts/
+model/
